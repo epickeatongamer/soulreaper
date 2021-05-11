@@ -1,5 +1,5 @@
-from .message_proxy import message_proxy
+from .message_proxy import Message_proxy
 
 
 def setup(bot):
-    bot.add_cog(message_proxy())
+    bot.add_cog(Message_proxy())
