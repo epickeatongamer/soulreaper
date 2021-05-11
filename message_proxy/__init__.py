@@ -1,5 +1,6 @@
-from .message_proxy import Message_proxy
+from redbot.core.bot import Red
+from .message_proxy import MessageProxy
 
 
-def setup(bot):
-    bot.add_cog(Message_proxy())
+def setup(bot: Red):
+    bot.add_cog(MessageProxy(bot))
